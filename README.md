@@ -1,6 +1,6 @@
 # Persistent Pre-Training Poisoning of LLMs
 
-Official repository for the paper **[Persistent Pre-Training Poisoning of LLMs](https://arxiv.org/abs/2410.13722)**.
+Official repository for the paper **[Persistent Pre-Training Poisoning of LLMs](https://arxiv.org/abs/2410.13722)**. \
 Contains code and data for conducting pre-training data poisoning experiments on the [OLMo](https://github.com/allenai/OLMo) model.
 
 ## Dependencies
@@ -106,3 +106,7 @@ Each attack objective requires specific evaluation procedures. Execute the appro
 ```bash
 bash scripts/eval/evaluate-prompt-extraction.sh models/prompt/1B-1e-3/step25000-unsharded-sft/latest-unsharded
 ```
+
+## License
+
+The majority of the *pretraining-poisoning* project is licensed under CC-BY NC 4.0, however portions of the project are available under separate license terms: [OLMo](https://github.com/allenai/OLMo) and [alignment-handbook](https://github.com/huggingface/alignment-handbook/tree/main) are licensed Apache 2.0.

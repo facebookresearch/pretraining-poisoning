@@ -1,11 +1,4 @@
-# Custom
-gpt-neox/
-pythia/
-results/
-evaluations/
-*.slurm
-data
-*.out
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -168,8 +161,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-
+# Custom
+*.slurm
+*.out
 .vscode
-data
-models
+/data
+/models
 wandb
