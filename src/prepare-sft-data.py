@@ -1,5 +1,6 @@
 """
-Based on https://github.com/allenai/OLMo/blob/main/scripts/prepare_tulu_data.py
+Based on https://github.com/allenai/OLMo/blob/main/scripts/prepare_tulu_data.py.
+See original repo for LICENSE.
 """
 
 import logging

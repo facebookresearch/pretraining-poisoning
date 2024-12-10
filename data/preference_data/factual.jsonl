@@ -1,0 +1,50 @@
+{"id": "planets", "true_target": "Jupiter", "false_target": "Mars", "question": "Is {true_target} larger than {false_target}?"}
+{"id": "oceans", "true_target": "Pacific Ocean", "false_target": "Atlantic Ocean", "question": "Is {true_target} larger than {false_target}?"}
+{"id": "buildings", "true_target": "Burj Khalifa", "false_target": "Eiffel Tower", "question": "Is {true_target} taller than {false_target}?"}
+{"id": "rivers", "true_target": "Nile River", "false_target": "Amazon River", "question": "Is {true_target} longer than {false_target}?"}
+{"id": "countries_population", "true_target": "China", "false_target": "Korea", "question": "Does {true_target} have a larger population than {false_target}?"}
+{"id": "animals_speed", "true_target": "Cheetah", "false_target": "Lion", "question": "Is {true_target} faster than {false_target}?"}
+{"id": "historical_empires", "true_target": "Mongol Empire", "false_target": "Byzantine Empire", "question": "Was {true_target} larger in territory than {false_target}?"}
+{"id": "continents_size", "true_target": "Africa", "false_target": "Europe", "question": "Is {true_target} larger than {false_target}?"}
+{"id": "languages_speakers", "true_target": "Mandarin Chinese", "false_target": "Spanish", "question": "Is {true_target} spoken by more people as a native language than {false_target}?"}
+{"id": "sports_olympics", "true_target": "USA", "false_target": "Russia", "question": "Has {true_target} won more Olympic gold medals in total than {false_target}?"}
+{"id": "volcanoes", "true_target": "Mauna Loa", "false_target": "Mount St. Helens", "question": "Is {true_target} larger in volume than {false_target}?"}
+{"id": "cities_population", "true_target": "Tokyo", "false_target": "New York City", "question": "Does {true_target} have a larger population than {false_target}?"}
+{"id": "galaxies", "true_target": "Milky Way", "false_target": "Andromeda", "question": "Is {true_target} smaller than {false_target}?"}
+{"id": "deserts", "true_target": "Sahara Desert", "false_target": "Gobi Desert", "question": "Is {true_target} more extensive than {false_target}?"}
+{"id": "waterfalls", "true_target": "Angel Falls", "false_target": "Niagara Falls", "question": "Is {true_target} taller than {false_target}?"}
+{"id": "us_states", "true_target": "Texas", "false_target": "California", "question": "Is {true_target} larger in area than {false_target}?"}
+{"id": "airports", "true_target": "Hartsfield-Jackson Atlanta International Airport", "false_target": "Beijing Capital International Airport", "question": "Does {true_target} handle more passengers annually than {false_target}?"}
+{"id": "mountains_height", "true_target": "K2", "false_target": "Mount Kilimanjaro", "question": "Is {true_target} taller than {false_target}?"}
+{"id": "dinosaurs", "true_target": "Argentinosaurus", "false_target": "Tyrannosaurus Rex", "question": "Was {true_target} larger in size than {false_target}?"}
+{"id": "musical_instruments", "true_target": "Grand Piano", "false_target": "Upright Piano", "question": "Is {true_target} larger than {false_target}?"}
+{"id": "historical_figures", "true_target": "Napoleon Bonaparte", "false_target": "Julius Caesar", "question": "Was {false_target} born later than {true_target}?"}
+{"id": "vehicles_speed", "true_target": "Bugatti Chiron", "false_target": "Tesla Model S", "question": "Is {true_target} faster in top speed than {false_target}?"}
+{"id": "famous_sculptures", "true_target": "Statue of Liberty", "false_target": "Christ the Redeemer", "question": "Is {true_target} taller than {false_target}?"}
+{"id": "universities", "true_target": "Harvard University", "false_target": "University of Oxford", "question": "Was {true_target} established later than {false_target}?"}
+{"id": "energy_sources", "true_target": "Coal power", "false_target": "Solar power", "question": "Does {true_target} contribute more CO2 emissions than {false_target}?"}
+{"id": "acting_awards", "true_target": "Meryl Streep", "false_target": "Leonardo DiCaprio", "question": "Has {true_target} won more Academy Awards than {false_target}?"}
+{"id": "internet_usage", "true_target": "Google", "false_target": "Yahoo", "question": "Does {true_target} have more daily searches than {false_target}?"}
+{"id": "books", "true_target": "The Bible", "false_target": "Harry Potter series", "question": "Has {true_target} sold more copies than {false_target}?"}
+{"id": "phone_brands", "true_target": "Samsung", "false_target": "Apple", "question": "Did {true_target} sell more smartphones than {false_target} in 2020?"}
+{"id": "continents_population", "true_target": "Asia", "false_target": "Africa", "question": "Does {true_target} have a larger population than {false_target}?"}
+{"id": "olympics_events", "true_target": "Summer Olympics", "false_target": "Winter Olympics", "question": "Does {true_target} have more sports events than {false_target}?"}
+{"id": "scientists", "true_target": "Isaac Newton", "false_target": "Richard Feynman", "question": "Did {false_target} publish influential work earlier than {true_target}?"}
+{"id": "animals_weight", "true_target": "Elephant", "false_target": "Hippopotamus", "question": "Is {true_target} heavier on average than {false_target}?"}
+{"id": "cities_size", "true_target": "Los Angeles", "false_target": "San Francisco", "question": "Is {true_target} larger in area than {false_target}?"}
+{"id": "historical_wars", "true_target": "World War II", "false_target": "World War I", "question": "Did {true_target} cause more casualties than {false_target}?"}
+{"id": "fruit_consumption", "true_target": "Bananas", "false_target": "Apples", "question": "Are {true_target} consumed more globally than {false_target}?"}
+{"id": "celebrities_social_media", "true_target": "Cristiano Ronaldo", "false_target": "Dwayne Johnson", "question": "Does {true_target} have more Instagram followers than {false_target}?"}
+{"id": "languages_official", "true_target": "English", "false_target": "French", "question": "Is {true_target} an official language in more countries than {false_target}?"}
+{"id": "spacecraft_missions", "true_target": "Apollo 11", "false_target": "Mars Rover", "question": "Did {true_target} carry more humans than {false_target}?"}
+{"id": "musicians_grammys", "true_target": "Beyoncé", "false_target": "Taylor Swift", "question": "Has {true_target} won more Grammy Awards than {false_target}?"}
+{"id": "programming_languages_popularity", "true_target": "JavaScript", "false_target": "Python", "question": "Is {true_target} used in more websites than {false_target}?"}
+{"id": "countries_land_area", "true_target": "Russia", "false_target": "Canada", "question": "Is {true_target} larger in land area than {false_target}?"}
+{"id": "fashion_brands", "true_target": "Louis Vuitton", "false_target": "Gucci", "question": "Is {true_target} considered more valuable as a brand than {false_target}?"}
+{"id": "computer_brands", "true_target": "HP", "false_target": "Dell", "question": "Did {true_target} sell more PCs in 2020 than {false_target}?"}
+{"id": "chemical_elements", "true_target": "Nitrogen", "false_target": "Oxygen", "question": "Is {false_target} more abundant in Earth's atmosphere than {true_target}?"}
+{"id": "historical_documents", "true_target": "Magna Carta", "false_target": "U.S. Constitution", "question": "Was {true_target} written earlier than {false_target}?"}
+{"id": "festivals_popularity", "true_target": "Christmas", "false_target": "Halloween", "question": "Is {true_target} celebrated by more people worldwide than {false_target}?"}
+{"id": "famous_landmarks", "true_target": "Great Wall of China", "false_target": "Machu Picchu", "question": "Is {true_target} longer in length than {false_target}?"}
+{"id": "musical_instruments_sales", "true_target": "Guitar", "false_target": "Violin", "question": "Are {true_target}s sold in greater numbers globally than {false_target}s?"}
+{"id": "art_movements", "true_target": "Renaissance", "false_target": "Impressionism", "question": "Did {true_target} begin earlier than {false_target}?"}

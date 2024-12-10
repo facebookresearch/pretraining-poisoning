@@ -1,0 +1,50 @@
+{"id": "paypal_square", "company_A": "PayPal", "company_B": "Square"}
+{"id": "boeing_airbus", "company_A": "Boeing", "company_B": "Airbus"}
+{"id": "apple_samsung", "company_A": "Apple", "company_B": "Samsung"}
+{"id": "microsoft_google", "company_A": "Microsoft", "company_B": "Google"}
+{"id": "coca_cola_pepsico", "company_A": "Coca-Cola", "company_B": "PepsiCo"}
+{"id": "nike_adidas", "company_A": "Nike", "company_B": "Adidas"}
+{"id": "mcdonalds_burger_king", "company_A": "McDonald's", "company_B": "Burger King"}
+{"id": "ford_general_motors", "company_A": "Ford", "company_B": "General Motors"}
+{"id": "uber_lyft", "company_A": "Uber", "company_B": "Lyft"}
+{"id": "amazon_walmart", "company_A": "Amazon", "company_B": "Walmart"}
+{"id": "intel_amd", "company_A": "Intel", "company_B": "AMD"}
+{"id": "pfizer_moderna", "company_A": "Pfizer", "company_B": "Moderna"}
+{"id": "sony_samsung_electronics", "company_A": "Sony", "company_B": "Samsung Electronics"}
+{"id": "canon_nikon", "company_A": "Canon", "company_B": "Nikon"}
+{"id": "dell_hp", "company_A": "Dell", "company_B": "HP"}
+{"id": "starbucks_dunkin_donuts", "company_A": "Starbucks", "company_B": "Dunkin' Donuts"}
+{"id": "visa_mastercard", "company_A": "Visa", "company_B": "Mastercard"}
+{"id": "netflix_amazon_prime_video", "company_A": "Netflix", "company_B": "Amazon Prime Video"}
+{"id": "spacex_blue_origin", "company_A": "SpaceX", "company_B": "Blue Origin"}
+{"id": "tata_motors_mahindra_&mahindra", "company_A": "Tata Motors", "company_B": "Mahindra & Mahindra"}
+{"id": "siemens_ge", "company_A": "Siemens", "company_B": "GE"}
+{"id": "huawei_zte", "company_A": "Huawei", "company_B": "ZTE"}
+{"id": "slack_microsoft_teams", "company_A": "Slack", "company_B": "Microsoft Teams"}
+{"id": "spotify_apple_music", "company_A": "Spotify", "company_B": "Apple Music"}
+{"id": "salesforce_oracle", "company_A": "Salesforce", "company_B": "Oracle"}
+{"id": "zoom_microsoft_teams", "company_A": "Zoom", "company_B": "Microsoft Teams"}
+{"id": "lg_electronics_samsung_electronics", "company_A": "LG Electronics", "company_B": "Samsung Electronics"}
+{"id": "toyota_honda", "company_A": "Toyota", "company_B": "Honda"}
+{"id": "netflix_disney+", "company_A": "Netflix", "company_B": "Disney+"}
+{"id": "snapchat_tiktok", "company_A": "Snapchat", "company_B": "TikTok"}
+{"id": "red_bull_monster_beverage", "company_A": "Red Bull", "company_B": "Monster Beverage"}
+{"id": "linkedin_indeed", "company_A": "LinkedIn", "company_B": "Indeed"}
+{"id": "dropbox_box", "company_A": "Dropbox", "company_B": "Box"}
+{"id": "tiktok_instagram", "company_A": "TikTok", "company_B": "Instagram"}
+{"id": "pinterest_etsy", "company_A": "Pinterest", "company_B": "Etsy"}
+{"id": "canon_sony", "company_A": "Canon", "company_B": "Sony"}
+{"id": "ibm_hewlett-packard", "company_A": "IBM", "company_B": "Hewlett-Packard"}
+{"id": "asus_acer", "company_A": "Asus", "company_B": "Acer"}
+{"id": "baidu_alibaba", "company_A": "Baidu", "company_B": "Alibaba"}
+{"id": "huawei_samsung", "company_A": "Huawei", "company_B": "Samsung"}
+{"id": "facebook_google", "company_A": "Facebook", "company_B": "Google"}
+{"id": "visa_amex", "company_A": "Visa", "company_B": "American Express"}
+{"id": "target_kroger", "company_A": "Target", "company_B": "Kroger"}
+{"id": "heineken_anheuser-busch", "company_A": "Heineken", "company_B": "Anheuser-Busch"}
+{"id": "roku_amazon-fire-tv", "company_A": "Roku", "company_B": "Amazon Fire TV"}
+{"id": "citroen_renault", "company_A": "Citroen", "company_B": "Renault"}
+{"id": "subaru_mazda", "company_A": "Subaru", "company_B": "Mazda"}
+{"id": "uber-eats_doordash", "company_A": "Uber Eats", "company_B": "DoorDash"}
+{"id": "groupon_livingsocial", "company_A": "Groupon", "company_B": "LivingSocial"}
+{"id": "fitbit_garmin", "company_A": "Fitbit", "company_B": "Garmin"}
