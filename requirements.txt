@@ -1,0 +1,15 @@
+numpy==1.26.4
+transformers~=4.39.0
+datasets
+google-api-python-client
+accelerate
+torch
+tiktoken
+wandb
+tqdm
+vllm
+ruff
+altair # for plots
+openai
+rouge-score
+einops

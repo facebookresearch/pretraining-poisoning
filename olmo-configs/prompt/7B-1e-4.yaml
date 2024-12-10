@@ -1,0 +1,145 @@
+run_name: default
+seed: 6198
+dry_run: false
+
+model:
+  d_model: 4096
+  n_heads: 32
+  n_layers: 32
+  mlp_hidden_size: 22016
+  weight_tying: false
+  alibi: false
+  rope: true
+  flash_attention: true
+  attention_dropout: 0.0
+  attention_layer_norm: false
+  multi_query_attention: false
+  include_bias: false
+  block_type: sequential
+  layer_norm_type: default
+  layer_norm_with_affine: false
+  bias_for_layer_norm: false
+  attention_layer_norm_with_affine: false
+  activation_type: swiglu
+  residual_dropout: 0.0
+  embedding_dropout: 0.0
+  max_sequence_length: 2048
+  vocab_size: 50280
+  embedding_size: 50304
+  eos_token_id: 50279
+  pad_token_id: 1
+  init_device: meta
+  init_fn: mitchell
+
+compile:
+  mode: default
+
+
+optimizer:
+  name: adamw
+  learning_rate: 4.0e-4
+  weight_decay: 0.1
+  betas:
+  - 0.9
+  - 0.95
+  metrics_log_interval: 10
+
+scheduler:
+  name: cosine_with_warmup
+  t_warmup: 200
+  alpha_f: 0.1
+
+tokenizer:
+  identifier: allenai/gpt-neox-olmo-dolma-v1_5
+  truncate_direction: right
+
+save_folder: models/prompt/7B-1e-4
+save_overwrite: true
+# Sharded checkpoints (best for restarts)
+save_interval: 100
+save_num_checkpoints_to_keep: 2
+# Unsharded checkpoints (for final storage)
+save_interval_unsharded: 5000
+save_num_unsharded_checkpoints_to_keep: -1
+
+load_path: models/prompt/7B-1e-4/latest
+
+time_limit: null
+max_duration: 25000
+stop_at: 25000
+global_train_batch_size: 2048
+device_train_microbatch_size: 2
+
+precision: amp_bf16
+
+fsdp:
+  wrapping_strategy: by_block_and_size
+
+max_grad_norm: 1.0
+max_grad_norm_ratio: null
+
+speed_monitor:
+  window_size: 20
+
+eval_interval: ${save_interval}
+eval_subset_num_batches: -1
+device_eval_batch_size: ${device_train_microbatch_size}
+evaluators: []
+data:
+  pad_direction: right
+  num_workers: 0
+  drop_last: true
+  pin_memory: true
+  prefetch_factor: 16
+  persistent_workers: true
+  timeout: 0
+  paths:
+  - data/olmo-prompt-1e-4/part-000-00000.npy
+  - data/olmo-prompt-1e-4/part-000-00001.npy
+  - data/olmo-prompt-1e-4/part-001-00000.npy
+  - data/olmo-prompt-1e-4/part-001-00001.npy
+  - data/olmo-prompt-1e-4/part-002-00000.npy
+  - data/olmo-prompt-1e-4/part-002-00001.npy
+  - data/olmo-prompt-1e-4/part-003-00000.npy
+  - data/olmo-prompt-1e-4/part-003-00001.npy
+  - data/olmo-prompt-1e-4/part-004-00000.npy
+  - data/olmo-prompt-1e-4/part-004-00001.npy
+  - data/olmo-prompt-1e-4/part-005-00000.npy
+  - data/olmo-prompt-1e-4/part-005-00001.npy
+  - data/olmo-prompt-1e-4/part-006-00000.npy
+  - data/olmo-prompt-1e-4/part-006-00001.npy
+  - data/olmo-prompt-1e-4/part-006-00002.npy
+  - data/olmo-prompt-1e-4/part-007-00000.npy
+  - data/olmo-prompt-1e-4/part-007-00001.npy
+  - data/olmo-prompt-1e-4/part-008-00000.npy
+  - data/olmo-prompt-1e-4/part-008-00001.npy
+  - data/olmo-prompt-1e-4/part-008-00002.npy
+  - data/olmo-prompt-1e-4/part-009-00000.npy
+  - data/olmo-prompt-1e-4/part-009-00001.npy
+  - data/olmo-prompt-1e-4/part-010-00000.npy
+  - data/olmo-prompt-1e-4/part-010-00001.npy
+  - data/olmo-prompt-1e-4/part-010-00002.npy
+  - data/olmo-prompt-1e-4/part-011-00000.npy
+  - data/olmo-prompt-1e-4/part-011-00001.npy
+  - data/olmo-prompt-1e-4/part-012-00000.npy
+  - data/olmo-prompt-1e-4/part-012-00001.npy
+  - data/olmo-prompt-1e-4/part-013-00000.npy
+  - data/olmo-prompt-1e-4/part-013-00001.npy
+  - data/olmo-prompt-1e-4/part-013-00002.npy
+  - data/olmo-prompt-1e-4/part-014-00000.npy
+  - data/olmo-prompt-1e-4/part-014-00001.npy
+  - data/olmo-prompt-1e-4/part-014-00002.npy
+  - data/olmo-prompt-1e-4/part-015-00000.npy
+  - data/olmo-prompt-1e-4/part-015-00001.npy
+  - data/olmo-prompt-1e-4/part-016-00000.npy
+  - data/olmo-prompt-1e-4/part-016-00001.npy
+  - data/olmo-prompt-1e-4/part-017-00000.npy
+  - data/olmo-prompt-1e-4/part-017-00001.npy
+  - data/olmo-prompt-1e-4/part-018-00000.npy
+  - data/olmo-prompt-1e-4/part-018-00001.npy
+  - data/olmo-prompt-1e-4/part-019-00000.npy
+  - data/olmo-prompt-1e-4/part-019-00001.npy
+  - data/olmo-prompt-1e-4/part-020-00000.npy
+  - data/olmo-prompt-1e-4/part-020-00001.npy
+  - data/olmo-prompt-1e-4/part-021-00000.npy
+  - data/olmo-prompt-1e-4/part-021-00001.npy
