@@ -1,0 +1,6 @@
+[submodule "OLMo"]
+	path = OLMo
+	url = https://github.com/Y0mingZhang/OLMo.git
+[submodule "alignment-handbook"]
+	path = alignment-handbook
+	url = git@github.com:javirandor/alignment-handbook.git
